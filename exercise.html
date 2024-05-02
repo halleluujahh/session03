@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      <fieldset>
+        <legend>Thong tin san pham</legend>
+        <label for="tenSanPham">Ten san pham:</label>
+        <input id="tenSanPham" type="text" />
+        <label for="soLuong">So luong:</label>
+        <input id="soLuong" type="number" min="1" />
+      </fieldset>
+      <fieldset>
+        <legend>Thong tin giao hang</legend>
+        <label for="hoVaTen">Ho va ten:</label>
+        <input id="hoVaTen" type="text" />
+        <label for="email">Email:</label>
+        <input id="email" type="email" />
+        <label for="soDienThoai">So dien thoai:</label>
+        <input id="soDienThoai" type="number" min="0" />
+        <label for="diaChi">Dia chi:</label>
+        <textarea id="diaChi"></textarea>
+      </fieldset>
+      <fieldset>
+        <legend>Thong tin thanh toan</legend>
+        <label for="phuongThucThanhToan">Phuong thuc thanh toan</label>
+        <select>
+          <option>Thanh toan khi nhan hang</option>
+          <option>Thanh toan ngan hang</option>
+        </select>
+      </fieldset>
+      <button>Dat hang</button>
+    </form>
+
+    <br /><br />
+    <form>
+      <h1>Dang ky hoc vien</h1>
+      <label for="hoVaTen">Ho va ten</label>
+      <input id="hoVaTen" type="text" /><br />
+      <label for="ngaySinh">Ngay Sinh</label>
+      <input id="ngaySinh" type="date" /><br />
+      <label for="gioiTinh">Gioi tinh</label>
+      <input name="gioiTinh" type="radio" />Nam
+      <input name="gioiTinh" type="radio" />Nu<br />
+      <label for="diaChi">Dia chi</label>
+      <input id="diaChi" type="text" /><br />
+      <label for="lop">Lop</label>
+      <select id="lop">
+        <option>-chon lop-</option></select
+      ><br />
+      <label for="email">Email</label>
+      <input type="email" id="email" /><br />
+      <label for="dienThoai">Dien thoai</label>
+      <input type="number" id="dienThoai" /><br />
+      <button>Dang ky</button>
+      <input type="reset" value="reset">
+    </form>
+  </body>
+</html>
